@@ -10,6 +10,7 @@ const ProductItem = ({ product, isItemOnBasket, addToBasket }) => {
   const history = useHistory();
 
   const onClickItem = () => {
+    
     if (!product) return;
 
     if (product.id) {
